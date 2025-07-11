@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Learning html-css</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+
+  <img src="./images/dog.jpg">
+
+  <!-- TYPE SELECTORS -->
+  <div class="intro">Hello World</div> 
+  <!-- <div> removes spaces between lines (no paragraph) -->
+  <div class="reintro">Hello again!</div> 
+  <p>Hi...</p>
+  <div>Okay, bye</div>
+
+<!-- CLASS SELECTORS -->
+  <div class="alert-text">Please check required fields</div>
+  <p class="notification">Allow</p>
+
+  <!-- ID SELECTORS -->
+   <div id="title">My Awesome 90's Page</div>
+
+ <!-- CHAINING SELECTORS -->
+  <div>
+  <div class="subsection header">Latest Posts</div>
+  <p class="subsection" id="preview">
+    This is where a preview for a post might go.
+  </p>
+</div>
+
+<!-- DESCENDANT COMBINATOR -->
+
+<div class="ancestor"> First
+  <!-- A -->
+  <div class="contents"> Second
+    <!-- B -->
+    <div class="contents"><!-- C -->Third</div>
+  </div>
+</div>
+
+<div class="contents"><!-- D -->Fourth</div>
+
+
+
+
+
+  </body>
+</html>

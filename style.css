@@ -1,0 +1,53 @@
+img {
+    height: 100px;
+    width: 100px;
+    
+}
+
+.intro {
+    color: black;
+    background-color: aqua;
+    font-weight: 700;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    text-align: center;
+    text-decoration-line: overline;
+
+}
+
+.reintro {
+    color: black;
+    background-color: aqua;
+}
+
+
+
+
+
+/* for Class we use Period(.) */
+.alert-text { 
+    color: rgb(19, 63, 6);
+}
+
+.notification {
+    color: purple;
+}
+
+/* for ID we use Hashtag(#) */
+#title {
+    color: brown;
+}
+
+
+.subsection.header{
+color: blueviolet;
+}
+
+.subsection#preview{
+    color: brown;
+}
+
+.ancestor .contents {
+    color: hsl(15, 82%, 56%);
+}
+
